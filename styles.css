@@ -1,0 +1,147 @@
+*{
+    background-color: rgba(95, 35, 78, 0.895);
+    box-sizing: border-box;
+}
+h1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    font-size: 70px;
+    font-family: serif;
+    font-style: oblique;
+    color: rgb(142, 100, 130);
+    background-position: center;
+    margin: 0px;
+    padding: 20px;
+    border: 0px;
+    background-color: rgb(84, 33, 77);
+}
+.logo {
+    position: fixed;
+    float: left;
+    top: 0px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: solid 4px rgb(95, 27, 76);
+}
+#rest {
+    display: grid;
+    gap: 5px;
+    grid-template-rows: 150px 100px 100px ;
+    height: 100vh;
+  }
+
+#mom{
+    float: left;
+}
+nav{
+    display: inline;
+}
+#nav ul li{
+    display: inline-block;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    color:black;
+    align-self: flex-start;
+}
+#nav a{
+    text-align: center;
+    padding: 10px 10px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(183, 75, 166);
+    border-radius: 30%;
+}
+#nav ul a:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+    color: black;
+  }
+  #nav ul a:active {
+    background-color: palevioletred;
+    color: white;
+  }
+#mo{
+    
+float: right;
+}
+#search, #submit, #cancel-reservation{
+    border-radius: 20px;
+    outline: none;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+#searchB{
+padding: 5px 10px;
+  background-color:antiquewhite;
+  border: solid 2px rgb(95, 27, 76);
+  border-radius: 20px;
+  cursor: pointer;
+}
+#searchB:hover, #submit:hover, #cancel-reservation:hover{
+    color: black;
+    background-color: palevioletred;
+}
+#searchB:active,#submit:active, #cancel-reservation:active{
+    color: black;
+    background-color: rgb(238, 170, 193)
+}
+h2{
+    letter-spacing: 3px;
+    clear: none;
+    padding-left: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+    color: rgb(142, 100, 130);
+}
+.mm {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+a #searchB{
+    margin-right: 50%;
+}
+#res input{
+    border-radius: 20px;
+    outline: none;
+    background-color: antiquewhite;
+    cursor: pointer;
+    width: 300px
+}
+#res label{
+    color: antiquewhite;
+    font-size: 20px;
+    text-decoration: underline;
+}
+#res {
+    text-align: center;
+}
+
+#reservation-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#reservation-form label {
+    display: block;
+    margin-bottom: 8px;
+}

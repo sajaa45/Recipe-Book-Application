@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="ll.png" type="image/gif" >
+    <title>Restaurant</title>
+</head>
+<body>
+    <div class="logo">
+        
+    </div>
+    <div id="rest">
+        <div id="nav">
+            <header> 
+                <img src="lot.png" width=120 height=90 id="mom">
+                <ul><span>
+                    <li id="home"><a href="#nav">Home</a></li>
+                    <li id="menuu"><a href="#menu">Menu</a></li>
+                    <li id="restt"><a href="#res">Reservation</a></li>
+                </span></ul>
+                <section id="mo">
+        
+                    <input type="text" name="search" id="search">
+                    <button id="searchB" for="search" onclick="handleClic()" >Search</button>
+                </section>
+            </header>
+        </div>
+        <div id="header">
+            <br>
+            <h1>LET LOTUS OF SIAM HOST YOUR NEXT PRIVATE EVENT:</h1>
+            
+        </div>
+        <br>
+        <div id="menu">
+            <h2 id="pet">Showcase Menu:</h3>
+            <section id="plate">
+
+            </section>
+            <a href="#res"><button id="searchB" >Make a reservation</button></a>
+                
+        </div>
+
+        <div id="res">
+            <h2 id="pet">Make A Reservation:</h2>
+            <form id="reservation-form">
+            <div id="name">
+            <label for="nam">First Name:</label>
+            <input type="text" id="first-name" required>
+            <label for="nam">Last Name:</label>
+            <input type="text" id="last-name" required></div>
+            <br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+                <br>
+            <label for="time">Time:</label>
+            <input type="time" id="time" required>
+                <br>
+            <label for="guests">Number of Guests:</label>
+            <input type="text" id="guests" required>
+            <button type="submit" id="submit">Submit Reservation</button>
+            </form>
+            <div id="reservation-details"></div>
+            <button id="cancel-reservation" style="display: none;">Cancel Reservation</button>
+        </div>
+      </div>
+</body>
+</html>
